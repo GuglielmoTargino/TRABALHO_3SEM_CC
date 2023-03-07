@@ -1,3 +1,17 @@
+/*
+
+ String nome, cargo;
+        
+        nome=JOptionPane.showInputDialog(null,"Qual seu nome?");// linha para fazer pergunta pro usuario
+        cargo=JOptionPane.showInputDialog("Digite seu cargo.");
+                
+        JOptionPane.showMessageDialog(null, "Boa noite!"+nome+cargo);// linha para mostrar mensagem (similiar printf)
+
+
+*/
+
+
+
 
 import javax.swing.JOptionPane;
 
@@ -12,14 +26,17 @@ public class Exemplo1 {// programa para teste em aula
     public static void main(String[] args) {
         
         // TODO code application logic here
-        String nome, cargo;
+        String ra,nome,materia;
+        double nt1,nt2,media;
+        ra=JOptionPane.showInputDialog("Digite seu número de RA_");
+        nome=JOptionPane.showInputDialog("Digite seu nome_");
+        materia=JOptionPane.showInputDialog("Digite a disciplina_");
+        nt1=Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da sua AV1_"));
+        nt2=Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da sua AV2_"));
         
-        nome=JOptionPane.showInputDialog(null,"Qual seu nome?");// linha para fazer pergunta pro usuario
-        cargo=JOptionPane.showInputDialog("Digite seu cargo.");
-                
-        JOptionPane.showMessageDialog(null, "Boa noite!"+nome+cargo);// linha para mostrar mensagem (similiar printf)
+        media=(nt1+nt2)/2;
         
-        
+        JOptionPane.showMessageDialog(null,nome+",Sua média é"+media);
     }
     
 }
