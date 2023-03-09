@@ -15,8 +15,8 @@ public class Parametros {
         
         nr1=Integer.parseInt(JOptionPane.showInputDialog("Digite o primero número_"));
         nr2=Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número_"));
-        resu1=somar_(nr1,nr2);// chama parametro somar
-        resu2=multi_(nr1,nr2);// chama paramentro multi
+        resu1=somar_(nr1,nr2);// chama parametro somar_
+        resu2=multi_(nr1,nr2);// chama paramentro multi_
         
         
         JOptionPane.showMessageDialog(null,"A soma é "+ resu1+" \nAmultiplicação é "+resu2);        
