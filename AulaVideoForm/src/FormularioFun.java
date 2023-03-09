@@ -110,7 +110,7 @@ public class FormularioFun extends javax.swing.JFrame {
         cargo=txtCargo.getText().toLowerCase();
         sal=Double.parseDouble(txtSal.getText());
         
-        if(cargo.equalsIgnoreCase("gerente")){//equalsIgnoreCase serve para comparação de String
+        if(cargo.equalsIgnoreCase("gerente")){//equalsIgnoreCase serve para comparação de String    
             sal=sal*1.10;
             
             }else if( cargo.equalsIgnoreCase("vendedor")){
