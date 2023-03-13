@@ -9,4 +9,8 @@ public class Calcular {
         return x1+x2+x3;
     }
     
+    public int multiplicar_(int x2, int x3){
+        return x2*x3;
+    
+}
 }
